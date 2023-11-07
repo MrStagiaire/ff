@@ -48,7 +48,7 @@ class Menu:
     def menu(self):
         self.print_slow("\n\t\t[1] Commencer\t\t")
         self.print_slow("\n\t\t[2] Credits")
-        self.print_slow("\n\t\t[4] Quitter\t\t\n\n")
+        self.print_slow("\n\t\t[3] Quitter\t\t\n\n")
         self.print_slow("DEMO")
         self.print_slow("© by MrStagiaire\n")
 
@@ -109,7 +109,7 @@ class Menu:
                 self.play()
             elif choice == "2":
                 self.credits()
-            elif choice == "4":
+            elif choice == "3":
                 # Demande de confirmation pour quitter l'application
                 confirm_quit = input("Voulez-vous vraiment quitter On mange quoi ? (O/N) ")
                 if confirm_quit.lower() == "o":
