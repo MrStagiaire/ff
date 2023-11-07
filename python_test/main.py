@@ -1,7 +1,7 @@
 import sys
+import time
 import random
 from alive_progress import alive_bar
-import time
 
 class Menu:
     def __init__(self):
